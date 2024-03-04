@@ -70,6 +70,7 @@ form {
 .poem {
   padding: 20px;
   line-height: 80px;
+  width: 550px;
 }
 
 footer {
