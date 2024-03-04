@@ -6,7 +6,7 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>Poem generator</title>
+    <title>French poem generator</title>
   </head>
   <body>
     <div class="container">
@@ -14,18 +14,23 @@
         <h1>Welcome to the French poem generator 🎉🎈🎀🥳</h1>
       </header>
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the French poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />✨
-        </form>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Type here to get a French poem 💙🤍❤️"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />✨
+          </form>
+          <small
+            ><i>for example: Your name or someone or something you love 😘</i>
+          </small>
+        </div>
         <div class="poem" id="poem"></div>
       </main>
       <footer>
