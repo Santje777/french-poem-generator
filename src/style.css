@@ -50,16 +50,16 @@ form {
 .instructions {
   padding: 20px;
   border: 1px solid rgb(49, 3, 255);
-  width: 70%;
+  width: 68%;
   border-radius: 15px;
   line-height: 20px;
   color: rgb(17, 3, 78);
-  font-size: 30px;
+  font-size: 25px;
 }
 .submit-button {
   margin: 10px;
   padding: 20px;
-  font-size: 30px;
+  font-size: 25px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background-color: rgb(29, 29, 126);
   color: whitesmoke;
